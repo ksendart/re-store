@@ -1,58 +1,58 @@
-@keyframes ldio-78eqp591y3u-1 {
+@keyframes first-book {
     0% { top: 50px; height: 90px }
     50% { top: 60px; height: 80px }
     100% { top: 60px; height: 80px }
 }
-@keyframes ldio-78eqp591y3u-2 {
+@keyframes second-book {
     0% { top: 30px; height: 110px }
     50% { top: 60px; height: 80px }
     100% { top: 60px; height: 80px }
 }
-@keyframes ldio-78eqp591y3u-3 {
+@keyframes third-book {
     0% { top: 40px; height: 100px }
     50% { top: 60px; height: 80px }
     100% { top: 60px; height: 80px }
 }
-.ldio-78eqp591y3u div { position: absolute; width: 30px }
-.ldio-78eqp591y3u div:nth-child(1) {
+.book div { position: absolute; width: 30px }
+.book div:nth-child(1) {
     left: 30px;
     background: #85a2b6;
-    animation: ldio-78eqp591y3u-1 1s cubic-bezier(0,0.5,0.5,1) infinite;
+    animation: first-book 4s cubic-bezier(0,0.5,0.5,1) infinite;
     animation-delay: 1s
 }
-.ldio-78eqp591y3u div:nth-child(2) {
+.book div:nth-child(2) {
     left: 62px;
     background: #bbcedd;
-    animation: ldio-78eqp591y3u-2 1s cubic-bezier(0,0.5,0.5,1) infinite;
+    animation: second-book 5s cubic-bezier(0,0.5,0.5,1) infinite;
     animation-delay: 0s
 }
-.ldio-78eqp591y3u div:nth-child(3) {
+.book div:nth-child(3) {
     left: 94px;
     background: #dce4eb;
-    animation: ldio-78eqp591y3u-3 1s cubic-bezier(0,0.5,0.5,1) infinite;
+    animation: third-book 4s cubic-bezier(0,0.5,0.5,1) infinite;
     animation-delay: 2s;
 }
-.ldio-78eqp591y3u div:nth-child(4) {
+.book div:nth-child(4) {
     left: 126px;
     background: #d69293;
-    animation: ldio-78eqp591y3u-1 1s cubic-bezier(0,0.5,0.5,1) infinite;
+    animation: first-book 5s cubic-bezier(0,0.5,0.5,1) infinite;
     animation-delay: 0s
 }
-.ldio-78eqp591y3u div:nth-child(5) {
+.book div:nth-child(5) {
     left: 158px;
     background: #be5960;
-    animation: ldio-78eqp591y3u-2 1s cubic-bezier(0,0.5,0.5,1) infinite;
+    animation: second-book 3s cubic-bezier(0,0.5,0.5,1) infinite;
     animation-delay: 1s;
 }
 
-.loadingio-spinner-pulse-xln77mcxaee {
+.loading-io-spinner-pulse-book {
     width: 224px;
     height: 150px;
     display: inline-block;
     overflow: hidden;
     background: #f1f2f3;
 }
-.ldio-78eqp591y3u {
+.book {
     width: 100%;
     height: 100%;
     position: relative;
@@ -60,4 +60,4 @@
     backface-visibility: hidden;
     transform-origin: 0 0;
 }
-.ldio-78eqp591y3u div { box-sizing: content-box; }
+.book div { box-sizing: content-box; }
