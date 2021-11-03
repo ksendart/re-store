@@ -1,8 +1,8 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 import './bool-list-item.css';
 
-const BookListItem = ({ book }) => {
-  const { title, author } = book;
+const BookListItem = ({book}) => {
+  const {title, author} = book;
   return (
     <Fragment>
       <span>{title}</span>

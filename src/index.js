@@ -16,7 +16,7 @@ ReactDOM.render(
     <ErrorBoundary>
       <BookstoreServiceProvider value={bookstoreService}>
         <Router>
-          <App />
+          <App/>
         </Router>
       </BookstoreServiceProvider>
     </ErrorBoundary>

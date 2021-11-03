@@ -1,4 +1,4 @@
-import {BOOKS_LOADED} from '../actions';
+import { BOOKS_LOADED } from '../actions';
 
 const initialState = {
   books: [],

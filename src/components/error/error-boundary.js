@@ -1,4 +1,4 @@
-import {Component} from 'react';
+import { Component } from 'react';
 import ErrorIndicator from './error-indicator';
 
 export default class ErrorBoundary extends Component {
@@ -8,7 +8,7 @@ export default class ErrorBoundary extends Component {
   };
 
   componentDidCatch(error, errorInfo) {
-    this.setState({ error, hasError: true });
+    this.setState({error, hasError: true});
   }
 
   render() {

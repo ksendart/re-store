@@ -1,8 +1,7 @@
-import { withBookstoreService } from './hoc';
 import { Route } from 'react-router-dom';
-import {Cart, Details, Home} from './pages';
+import { Cart, Details, Home } from './pages';
 
-const App = ({ bookstoreService }) => {
+const App = () => {
   return (
     <div>
       <Route path="/"
@@ -13,4 +12,4 @@ const App = ({ bookstoreService }) => {
     </div>);
 }
 
-export default withBookstoreService()(App);
+export default App;

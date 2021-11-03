@@ -1,6 +1,6 @@
 import React from 'react';
 import { Component } from 'react';
-import {BookList} from '../shared';
+import { BookList } from '../shared';
 
 export default class Home extends Component {
   books = [
