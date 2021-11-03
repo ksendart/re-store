@@ -1,7 +1,8 @@
 import Spinner from './spinner/spinner';
+import { withBookstoreService } from './hoc';
 
-const App = () => {
+const App = ({ bookstoreService }) => {
   return <Spinner />;
 }
 
-export default App;
+export default withBookstoreService()(App);
