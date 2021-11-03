@@ -9,14 +9,14 @@ import { compose } from '../../utils';
 class BookList extends Component {
 
   componentDidMount() {
-    const { bookstoreService } = this.props;
+    const {bookstoreService} = this.props;
     const data = bookstoreService.getBooks();
     this.props.booksLoaded(data);
   }
 
   render() {
     const {books} = this.props;
-    return (<ul>
+    return (<ul className="book-list">
       {
         books.map((book) => {
           return (<li key={book.id}><BookListItem book={book}/></li>)

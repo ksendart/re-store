@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #85a2b6;
+  font-size: xx-large;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.logo {
+  padding: 10px;
+}
+
+.cart {
+  padding: 10px;
+  font-size: large;
+}
+.cart > i {
+  margin-right: 10px;
+}
