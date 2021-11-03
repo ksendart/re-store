@@ -1,7 +1,18 @@
 import { BOOKS_LOADED } from '../actions';
 
 const initialState = {
-  books: [],
+  books: [
+    {
+      id: 1,
+      title: 'Foundation',
+      author: 'A. Asimov',
+    },
+    {
+      id: 2,
+      title: 'Foundation and Empire',
+      author: 'A. Asimov',
+    },
+  ],
 };
 
 const reducer = (state = initialState, action) => {
