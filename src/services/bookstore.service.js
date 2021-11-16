@@ -39,8 +39,12 @@ const bookListData = [
 
 export default class BookstoreService {
   getBooks() {
-    return new Promise((resolve => {
-      setTimeout(() => resolve(bookListData), 1500);
-    }))
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+          resolve(bookListData)
+          // reject(new Error('Test Error'))
+        }, 1500
+      );
+    })
   }
 }

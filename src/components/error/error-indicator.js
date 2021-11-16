@@ -1,10 +1,10 @@
 import React from 'react';
 
-const ErrorIndicator = (error) => {
+const ErrorIndicator = () => {
   return (
     <div>
-      <img alt="error-sign"/>
-      <span>{error}</span>
+      <i className="fas fa-exclamation-triangle"/>
+      <span>Error</span>
     </div>
   )
 }
