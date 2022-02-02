@@ -1,7 +1,7 @@
 import React from 'react';
 import './bool-list-item.css';
 
-const BookListItem = ({book}) => {
+const BookListItem = ({book, onAddedToCart}) => {
   const {title, author, cover} = book;
   return (
     <div className="book-list-item">
@@ -13,8 +13,7 @@ const BookListItem = ({book}) => {
         <div className="book-author">{author}</div>
       </div>
      <div className="book-action">
-       <button><i className=" fas fa-plus-square"/></button>
-       <button><i className="fas fa-trash-alt"/></button>
+       <button onClick={onAddedToCart}><i className=" fas fa-plus-square"/></button>
      </div>
     </div>
   );

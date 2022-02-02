@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+}
+thead > tr > td {
+  font-size: large;
+  font-weight: bold;
+}
+thead {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+tbody > tr {
+  padding: 10px 0;
+}
+.book-action > *:not(:last-of-type) {
+  margin-right: 5px;
+}
+
+.book-cover img {
+  height: 150px;
+}
+
