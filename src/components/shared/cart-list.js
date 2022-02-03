@@ -1,6 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import './cart-list.css';
+import { bookRemovedInCart, bookDeletedFromCart, bookAddedToCart } from '../../actions';
+
 const CartList = ({ items, total, onIncrease, onDecrease, onDelete }) => {
   return (
     <div>
@@ -46,11 +48,11 @@ const matStateToProps = ({ cartItems, cartTotal }) => {
   };
 };
 
-const mapDispatchToProps = () => {
+const mapDispatchToProps = (dispatch) => {
   return {
-    onIncrease: (id) => {},
-    onDecrease: (id) => {},
-    onDelete: (id) => {},
+    onIncrease: (id) => dispatch(bookAddedToCart(id)),
+    onDecrease: (id) => dispatch(bookRemovedInCart(id)),
+    onDelete: (id) => dispatch(bookDeletedFromCart(id)),
   }
 };
 
