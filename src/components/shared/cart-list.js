@@ -41,7 +41,7 @@ const CartList = ({ items, total, onIncrease, onDecrease, onDelete }) => {
   )
 }
 
-const matStateToProps = ({ cartItems, cartTotal }) => {
+const matStateToProps = ({ shoppingCart: { cartItems, cartTotal } }) => {
   return {
     items: cartItems,
     total: cartTotal,
