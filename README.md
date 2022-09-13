@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Re-store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an education react project for Udemy React&Redux class.
+Application presents on-line bookshop, allows user to choose and buy books. Code demonstrates core structure for react app, main features, key steps to work with state and reducers.
 
 ## Available Scripts
 
